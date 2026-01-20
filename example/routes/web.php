@@ -13,6 +13,8 @@ Route::get('test', function () {
     return 'Done';
 });
 
+// to push changes to main
+
 Route::view('/', 'home');
 Route::view('/contact', 'contact');
 
